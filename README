@@ -1,0 +1,36 @@
+# B2B Bug Attachments
+
+This repository stores all bug-related attachments (screenshots, videos, logs) for the B2B platform. It helps QA and developers quickly understand, reproduce, and fix issues with proper visual evidence.
+
+## 📂 Structure
+Each bug should have its own folder using the Bug ID:
+
+/bugs/<bug-id>/
+- screenshot.png  
+- recording.mp4  
+- log.txt  
+
+Example:
+/bugs/B2B-101/
+- login-error.png  
+- login-flow.mp4  
+
+## 🏷️ Naming
+- Folder: Use Bug ID (e.g., B2B-101)
+- Files: Keep names simple and descriptive  
+  - login-error.png  
+  - payment-failure.mp4  
+
+## 🚀 Usage
+1. Create a folder with the bug ID  
+2. Upload all related files  
+3. Push changes  
+4. Add the repo link in Jira/ClickUp ticket  
+
+## ✅ Notes
+- Keep files relevant and clear  
+- Compress large videos if needed  
+- Don’t overwrite existing evidence  
+
+---
+Used by QA & Dev team for tracking and validating bugs during testing and regression.
